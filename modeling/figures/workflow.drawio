@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:29:45.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="jfvHJtRxDKG4pYxMhtlE" version="22.1.20" type="device">
+  <diagram name="General Workflow" id="M_Me3fVr90ERcoHUSq7V">
+    <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Gather&lt;br&gt;Physical Metrics&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Construct&lt;br&gt;Activity Classifier&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="1" source="Q_Q2z2u91PsC2xI6ZYRw-4" target="Q_Q2z2u91PsC2xI6ZYRw-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Construct&lt;br&gt;Music Recommender&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="515" y="80" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-6" value="Clustered Music Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="720" y="85" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Q_Q2z2u91PsC2xI6ZYRw-12" target="Q_Q2z2u91PsC2xI6ZYRw-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-12" value="&lt;b&gt;metrics&lt;/b&gt;: heart-beat, &lt;br&gt;temperature, gyro readings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="95" y="210" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Q_Q2z2u91PsC2xI6ZYRw-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-14" value="&lt;b&gt;What is user generally doing ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="340" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Q_Q2z2u91PsC2xI6ZYRw-16" target="Q_Q2z2u91PsC2xI6ZYRw-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-16" value="&lt;b&gt;Request a sample&lt;br&gt;playlist&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Q_Q2z2u91PsC2xI6ZYRw-17" target="Q_Q2z2u91PsC2xI6ZYRw-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-17" value="Clustered Music Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="720" y="195" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q_Q2z2u91PsC2xI6ZYRw-16" target="Q_Q2z2u91PsC2xI6ZYRw-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-19" value="* Is user performing &lt;br&gt;meditation/relation activities?&lt;br&gt;* Is user performing physical activities?&lt;br&gt;* Is user working or studying" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="290" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_Q2z2u91PsC2xI6ZYRw-20" value="Give me a sample playlist &lt;br&gt;based on user activity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="510" y="305" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
