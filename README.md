@@ -17,3 +17,19 @@ IEEE International Conference on Cybernetics and Innovations (ICCI), 2024
 
 <img width="1251" alt="image" src="https://github.com/user-attachments/assets/b89ddab7-79a9-4c27-a5bf-acc95b3283a8" />
 
+## Citation
+
+If you use this repository in your work, please cite the following paper:
+
+```bibtex
+@INPROCEEDINGS{10532563,
+  author={Cayas, Ryan Roi and Agluba, Gerry P. and Naval, Prospero C.},
+  booktitle={2024 IEEE International Conference on Cybernetics and Innovations (ICCI)}, 
+  title={beats2beats: Activity-Driven Music Playlist Recommender System Using Wearable Sensor Data}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Performance evaluation;Wrist;Technological innovation;Predictive models;Prediction algorithms;Real-time systems;User experience;music recommender;machine learning;wearable sensor data;human activity recognition (HAR)},
+  doi={10.1109/ICCI60780.2024.10532563}}
+```
