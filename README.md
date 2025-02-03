@@ -6,6 +6,7 @@ IEEE International Conference on Cybernetics and Innovations (ICCI), 2024
 > Current music recommender systems employ algorithms that require extensive user profiling before providing relevant recommendations. This study proposes a novel system that is only reliant on real-time sensor data gathered from wearable wrist devices. For this, two models were constructed: one model aims to predict the activity currently performed by the user given the real-time sensor readings while the next model is a recommendation system that gives a list of songs appropriate for the user’s current physical activity. The best performing model trained for the human activity classifier is an ANN model (accuracy = 80%) while an XGBoost model was the best performing model for the recommender (accuracy = 86%). This system can be incorporated by music platforms as an integration feature that can enhance user experience and lead to more user engagement and sales, providing value for both music platforms and their user base.
 
 - [Link to the Paper](https://ieeexplore.ieee.org/document/10532563)
+- [Presentation Slides](https://github.com/cayasryan/beats2beats-music-recommender/blob/main/Presentation%20Slides.pdf)
 
 ## Data
 - [PAMAP2 Physical Activity Monitoring](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring)
